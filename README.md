@@ -4,7 +4,7 @@ Bairdu Ocr SDK [https://ai.baidu.com/docs#/OCR-PHP-SDK/top]
 # 安装
 
 * 引入类库
-composer require Ydalbj/ocr
+composer require ydalbj/ocr
 
 * Laravel config
 

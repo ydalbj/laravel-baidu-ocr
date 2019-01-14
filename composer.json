@@ -1,5 +1,5 @@
 {
-    "name": "Ydalbj/ocr",
+    "name": "ydalbj/ocr",
     "description": "百度文字识别Api的laravel扩展库",
     "type": "library",
     "require": {},
