@@ -1,0 +1,24 @@
+{
+    "name": "Ydalbj/ocr",
+    "description": "百度文字识别Api的laravel扩展库",
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ydalbj\\Ocr\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ydalbj\\Ocr\\OcrServiceProvider"
+            ],
+            "aliases": {
+                "Ocr": "Ydalbj\\Ocr\\OcrFacade"
+            }
+        }
+    }
+}
